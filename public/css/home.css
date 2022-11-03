@@ -1,0 +1,45 @@
+@import 'nav.css';
+
+.white__logo {
+    filter: contrast(.0);
+    
+}
+
+.hero__section {
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-image: url('/assets/ALS_Zeitwerk_black_LG.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__section .brand__logo {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.hero__section .sub__heading {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.product{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.product__category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
